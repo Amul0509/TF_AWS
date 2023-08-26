@@ -1,8 +1,8 @@
 # configured aws provider with proper credentials
 provider "aws" {
   region = "us-east-1"
-  access_key = "AKIAVEM4Z5LTTPEDXI5B"
-  secret_key = "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"
+  access_key = "user access key"
+  secret_key = "user secret key"
 }
 
 # create default vpc if one does not exit
