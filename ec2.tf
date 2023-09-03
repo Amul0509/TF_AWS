@@ -109,7 +109,7 @@ resource "null_resource" "name" {
   connection {
     type        = "ssh"
     user        = "ec2-user"
-    private_key = file("/var/lib/jenkins/workspace/test/IAMKeypair")
+    private_key = file("/var/lib/jenkins/workspace/test/AWSKeypair")
     host        = aws_instance.ec2_instance.public_ip
   }
 
